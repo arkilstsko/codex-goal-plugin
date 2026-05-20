@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "codex-goal-command",
+      "name": "codex-goal-plugin",
       "source": {
         "source": "local",
-        "path": "./plugins/codex-goal-command"
+        "path": "./plugins/codex-goal-plugin"
       },
       "policy": {
         "installation": "INSTALLED_BY_DEFAULT",
