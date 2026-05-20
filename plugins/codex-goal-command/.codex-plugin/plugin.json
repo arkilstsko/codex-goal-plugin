@@ -1,0 +1,32 @@
+{
+  "name": "codex-goal-command",
+  "version": "0.1.0",
+  "description": "Adds a lightweight /goal command shim for Codex App using the built-in goal tools.",
+  "author": {
+    "name": "Stephen Skouboe",
+    "email": "sskouboe@gmail.com",
+    "url": "https://github.com/arkilstsko"
+  },
+  "homepage": "https://github.com/arkilstsko/codex-goal-plugin",
+  "repository": "https://github.com/arkilstsko/codex-goal-plugin",
+  "license": "MIT",
+  "keywords": ["codex", "goal", "slash-command", "workflow"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Goal Command",
+    "shortDescription": "Use /goal in Codex App.",
+    "longDescription": "A skill-based command shim that treats /goal messages as durable Codex goals and keeps work aligned to a roadmap or Definition of Done.",
+    "developerName": "Stephen Skouboe",
+    "category": "Productivity",
+    "capabilities": ["Workflow", "Planning"],
+    "websiteURL": "https://github.com/arkilstsko/codex-goal-plugin",
+    "privacyPolicyURL": "https://github.com/arkilstsko/codex-goal-plugin",
+    "termsOfServiceURL": "https://github.com/arkilstsko/codex-goal-plugin",
+    "defaultPrompt": [
+      "/goal Implement ROADMAP.md until complete",
+      "/goal status",
+      "/goal complete"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

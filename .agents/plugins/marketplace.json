@@ -1,0 +1,20 @@
+{
+  "name": "codex-goal",
+  "interface": {
+    "displayName": "Codex Goal"
+  },
+  "plugins": [
+    {
+      "name": "codex-goal-command",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-goal-command"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
